@@ -62,7 +62,9 @@ nav li:hover{
     color: rgb(204, 203, 203)
 }
 
-.log{
+.log a{
+    outline: none;
+    text-decoration: none;
     color: rgb(204, 203, 203)
 }
 
