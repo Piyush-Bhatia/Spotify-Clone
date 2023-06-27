@@ -4,7 +4,7 @@ body{
     margin: 0;
     padding: 0;    
     font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 #top{
@@ -58,8 +58,14 @@ nav li:hover{
     color: rgb(30, 219, 30);
 }
 
-.sign{
-    color: rgb(204, 203, 203)
+.sign a{
+    color: rgb(204, 203, 203);
+    outline: none;
+    text-decoration: none;
+}
+
+.sign a:hover{
+    color: rgb(30, 219, 30);
 }
 
 .log a{
